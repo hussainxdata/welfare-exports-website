@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welfare Exports</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #050505;
+      color: #fff;
+    }
+    header {
+      padding: 22px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #5a4828;
+    }
+    .logo { color: #D6B36A; font-size: 24px; font-weight: bold; }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+    }
+    .hero {
+      min-height: 75vh;
+      padding: 100px 8%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background: radial-gradient(ellipse at top, #302515, #050505 65%);
+    }
+    .hero small { color: #D6B36A; letter-spacing: 4px; }
+    h1 { font-size: clamp(42px, 7vw, 76px); margin: 20px 0; }
+    h1 span { color: #D6B36A; }
+    p { color: #c9c9c9; line-height: 1.8; max-width: 550px; }
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      background: #D6B36A;
+      color: #050505;
+      padding: 14px 25px;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: bold;
+      width: fit-content;
+    }
+    section { padding: 65px 8%; }
+    h2 { color: #D6B36A; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit,minmax(200px,1fr)); gap: 20px; }
+    .card { border: 1px solid #554526; padding: 25px; border-radius: 8px; }
+    footer { text-align: center; padding: 25px; border-top: 1px solid #554526; color: #bbb; }
+    nav a:hover { color: #D6B36A; }
+    @media(max-width:600px) {
+      header { padding: 20px 5%; flex-wrap: wrap; gap: 15px; }
+      nav a { margin-left: 0; margin-right: 14px; }
+      .hero { padding: 75px 6%; }
+      section { padding: 50px 6%; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">WELFARE EXPORTS</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero" id="home">
+      <small>QUALITY • TRUST • GLOBAL REACH</small>
+      <h1>Connecting Business<br>Across <span>the World.</span></h1>
+      <p>Welcome to Welfare Exports. We aim to build trusted business relationships and connect quality products with global markets.</p>
+      <a class="btn" href="#contact">Enquire Now ↗</a>
+    </div>
+
+    <section id="about">
+      <h2>About Welfare Exports</h2>
+      <p>We are building lasting business partnerships through quality, reliability and professional service. Contact us to learn more about our company.</p>
+    </section>
+
+    <section id="products">
+      <h2>Our Products</h2>
+      <div class="cards">
+        <div class="card"><h3>Product Category 01</h3><p>Add your export product details here.</p></div>
+        <div class="card"><h3>Product Category 02</h3><p>Showcase your products to global buyers.</p></div>
+        <div class="card"><h3>Product Category 03</h3><p>Contact us for product information.</p></div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Let's Do Business</h2>
+      <p>Interested in our products? Contact Welfare Exports for enquiries and business opportunities.</p>
+      <a class="btn" href="mailto:YOUR_EMAIL@example.com">Email Us ↗</a>
+    </section>
+  </main>
+
+  <footer>© 2026 Welfare Exports. All rights reserved.</footer>
+</body>
+</html>
